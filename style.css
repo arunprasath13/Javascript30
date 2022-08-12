@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.inside-header-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.container{
+    width:90%;
+}
+
+
+.inside-our-mission-section {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.inside-our-mission-section h1{
+    width:90%;
+    font-size: 40px;
+}
+
+.inside-our-mission-section h1 span{
+    color:#EAE509;
+    font-weight: 800;
+}
+
+.inside-our-mission-section p{
+    font-size:18px;
+    color: #7F8487;
+}
+
+.inside-our-mission-section button{
+    padding:10px 20px;
+    background-color:#3CCF4E;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top:10px;
+}
+
+
+.rating{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul{
+   display: flex;
+   gap:15px;
+}
+
+
+.companies-list{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.companies-list .inside-companies-list-section p{
+   text-align: center;
+   margin-top:50px;
+}
+
+.inside-companies-list-section ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+.nav-menu{
+    position: fixed; 
+    width:100%;   
+    height:50vh;
+    top:80px;
+    left:-100%;
+    text-align: center;
+    transition:0.3s;     
+    background-color: #F5E8E4;
+}
+
+.nav-menu li a{
+    cursor:pointer;
+}
+
+.nav-menu li:hover{
+    background-color: red;
+}
+
+.nav-item{
+    margin:50px 0; 
+}
+.nav-menu.active{
+    left:0;
+}
